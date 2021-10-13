@@ -65,11 +65,11 @@ class Films extends Component {
     const { films, searchValue } = this.state;
     return (
       <div>
-        <div className="films">
+        <div className="films center">
           <input onChange={this.handleChange} value={searchValue} type="text" />
           <button onClick={this.handleClick}>Search</button>
         </div>
-        <div className="wrap">
+        <div className="wrap row">
           {films.length > 0 &&
             films.map((film) => (
               <Film

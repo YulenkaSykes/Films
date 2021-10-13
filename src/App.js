@@ -9,7 +9,7 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <header>
+        <header className="center">
           <Link to="/">
             <span>Home page</span>
           </Link>

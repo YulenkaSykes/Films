@@ -24,14 +24,14 @@ class Film extends Component {
     const { i, id, l, q, rank, s, y } = film;
     const { added } = this.state;
     return (
-      <div className="film">
+      <div className="film row">
         <img src={i.imageUrl} alt={l} />
         <span>{l}</span>
         <span>{q}</span>
         <span>{rank}</span>
         <span>{s}</span>
         <span>{y}</span>
-        <div className="fixed">
+        <div className="fixed row">
           <Link to={`/filmInfo/${id}`}>More</Link>
           {added ? (
             <button

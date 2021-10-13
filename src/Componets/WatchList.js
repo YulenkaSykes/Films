@@ -37,7 +37,7 @@ class WatchList extends Component {
     console.log(localStorage.getItem("watchList"));
     const { list } = this.state;
     return (
-      <div className="list">
+      <div className="list center">
         {list.length > 0 ? (
           list.map((film) => (
             <Film
@@ -47,7 +47,7 @@ class WatchList extends Component {
             />
           ))
         ) : (
-          <h1>List zero</h1>
+          <h1 className="row">List zero</h1>
         )}
       </div>
     );

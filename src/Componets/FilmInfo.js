@@ -26,8 +26,8 @@ class FilmInfo extends Component {
   render() {
     const { film } = this.state;
     return (
-      <div className="more_list">
-        <div className="more">
+      <div className="center">
+        <div className="more row">
           {film ? (
             <>
               <img src={film.image.url} alt={film.title} />

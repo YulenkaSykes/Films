@@ -7,9 +7,14 @@ body {
 a{
   text-decoration: none;
 }
-header {
+.row{
+  display: flex;
+}
+.center{
   display: flex;
   justify-content: center;
+}
+header {
   margin-top: 5vh;  
 }
 header span {
@@ -25,8 +30,6 @@ header span:hover{
   box-shadow: 0 0 5px 0 #f8f8f8 inset, 0 0 5px 4px #08020a;
 }
 .films{
-  display: flex;
-  justify-content: center;
   margin: 5vh;
 }
 input{
@@ -53,7 +56,6 @@ img {
   margin: auto;
 }
 .film, .more{
-  display: flex;
   flex-direction: column;
   align-items: flex-start;
   width: 320px;
@@ -64,10 +66,6 @@ img {
   margin: 10px;
   padding: 10px;
   cursor: pointer;
-}
-.more_list{
-  display: flex;
-  justify-content: center;
 }
 .film img {
   transition: 0.3s all;
@@ -80,12 +78,10 @@ img {
 }
 
 .wrap{
-  display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
 .fixed{
-  display: flex;
   padding: auto;
   margin: auto;
 }
@@ -130,18 +126,15 @@ button.icon{
   margin-top: -200px;
 }
 .main img{
-  width: 35%;
+  width: 30%;
   height: 40%;
   background-color: black;
   padding: 5%;
 }
 .list{
-  display: flex;
-  justify-content: center;
   flex-wrap: wrap;
 }
 .list h1{
-  display: flex;
   justify-content: center;
   background-color: white;
 }
