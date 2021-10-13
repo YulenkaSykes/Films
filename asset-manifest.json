@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/films/static/css/main.819937cf.chunk.css",
+    "main.js": "/films/static/js/main.a402d45f.chunk.js",
+    "main.js.map": "/films/static/js/main.a402d45f.chunk.js.map",
+    "runtime-main.js": "/films/static/js/runtime-main.14e754bc.js",
+    "runtime-main.js.map": "/films/static/js/runtime-main.14e754bc.js.map",
+    "static/js/2.0eed3147.chunk.js": "/films/static/js/2.0eed3147.chunk.js",
+    "static/js/2.0eed3147.chunk.js.map": "/films/static/js/2.0eed3147.chunk.js.map",
+    "static/js/3.7a69f5fa.chunk.js": "/films/static/js/3.7a69f5fa.chunk.js",
+    "static/js/3.7a69f5fa.chunk.js.map": "/films/static/js/3.7a69f5fa.chunk.js.map",
+    "index.html": "/films/index.html",
+    "static/css/main.819937cf.chunk.css.map": "/films/static/css/main.819937cf.chunk.css.map",
+    "static/js/2.0eed3147.chunk.js.LICENSE.txt": "/films/static/js/2.0eed3147.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/films/static/media/1154.af1549fc.jpg",
+    "static/media/cinema-screen.cab1be1d.png": "/films/static/media/cinema-screen.cab1be1d.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.14e754bc.js",
+    "static/js/2.0eed3147.chunk.js",
+    "static/css/main.819937cf.chunk.css",
+    "static/js/main.a402d45f.chunk.js"
+  ]
+}
