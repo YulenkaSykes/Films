@@ -1,38 +1,160 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  background: url(1154.jpg);
+  background-size: 100% auto;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+a{
+  text-decoration: none;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+header {
+  display: flex;
+  justify-content: center;
+  margin-top: 5vh;  
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+header span {
+  margin: 10px;
+  color: white;
+  font-size: 20px;
+  background-color: rgb(0, 0, 0, 0.85);
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 2px; 
+}
+header span:hover{
+  box-shadow: 0 0 5px 0 #f8f8f8 inset, 0 0 5px 4px #08020a;
+}
+.films{
+  display: flex;
+  justify-content: center;
+  margin: 5vh;
+}
+input{
+  width: 40%;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+button{
+  color: white;
+  font-size: 20px;
+  background-color: rgb(0, 0, 0, 0.85);
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 3px;
+  cursor: pointer;
+}
+button:hover{
+  box-shadow: 0 0 2px 0 #ffffff inset, 0 0 2px 2px #000000;
+}
+img {
+  height: 360px;
+  width: 270px;
+  padding: auto;
+  margin: auto;
+}
+.film, .more{
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
+  width: 320px;
+  height: 500px;
+  border: 3px solid black;
+  border-radius: 20px 20px 20px 1px;
+  background-color: white;
+  margin: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+.more_list{
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.film img {
+  transition: 0.3s all;
+  filter: grayscale(100%);
 }
 
-.App-link {
-  color: #61dafb;
+.film:hover img  {
+  transition: 0.3s all;
+  filter: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.wrap{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.fixed{
+  display: flex;
+  padding: auto;
+  margin: auto;
+}
+.fixed button{
+  display: flex;
+  justify-content: center;
+}
+.fixed a{
+  color: black;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 7px;
+  padding: 1px;
+}
+.film button{
+  background: none;
+  border: none;
+  width: 30px;
+  height: 30px;
+}
+button.icon{
+  width: 20px;
+  height: 18px;
+}
+.icon{
+  width: 20px;
+  height: 20px;
+}
+.main{
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+.main p{
+  background-color: white;
+  border: 1px solid black;
+  width: 50%;
+  height: 40%;
+  font-size: 20px;
+  padding: 10px;
+  margin-left: auto;
+  margin-top: -200px;
+}
+.main img{
+  width: 35%;
+  height: 40%;
+  background-color: black;
+  padding: 5%;
+}
+.list{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.list h1{
+  display: flex;
+  justify-content: center;
+  background-color: white;
+}
+@media screen and (max-width: 1000px) {
+ .main{
+    margin-top: 50px;
+    padding: 15px;
+    display: block;
+ }
+  .main p{
+    margin-top: -20%;
   }
-  to {
-    transform: rotate(360deg);
+  input{
+    width: 70%;
   }
 }
